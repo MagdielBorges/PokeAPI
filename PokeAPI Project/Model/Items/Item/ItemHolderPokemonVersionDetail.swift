@@ -1,0 +1,13 @@
+//
+//  ItemHolderPokemonVersionDetail.swift
+//  PokeAPI Project
+//
+//  Created by Magdiel Borges on 5/3/22.
+//
+
+import Foundation
+
+struct ItemHolderPokemonVersionDetail: Codable, Hashable {
+    let rarity: Int
+    let version: NamedAPIResource
+}

@@ -11,7 +11,11 @@ import SwiftUI
 struct PokeAPI_ProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                PrototypeListView()
+                //SwiftUIView()
+                //PrototypeView(id: "pikachu")
+            }
         }
     }
 }
